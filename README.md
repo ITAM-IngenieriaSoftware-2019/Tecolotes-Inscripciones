@@ -9,7 +9,7 @@ Sistema de Inscripciones para los alumnos del ITAM que permita agilizar y simpli
 
 ### 1.2 Document conventions 
 
-El documento se basa en la jerarquia especificada por la IEEE. Par la estimacion de la complejidad de los diferentes componentes utilizamos una escla de elote, donde de menor a mayor tenemos:
+El documento se basa en la jerarquia especificada por la IEEE. Para la estimacion de la complejidad de los diferentes componentes utilizamos una escla de elote, donde de menor a mayor tenemos:
 
     1. Esquite
     2. Elote asado
@@ -51,7 +51,7 @@ Las princiapales funciones que el sistema de inscripciones tiene que realizar es
 El sistema tiene que poder operar en los diferentes navegadores de forma correcta. Además, debe se debe poner ajustarse a las diferentes pantallas, ya que los usuarios pueden usar el sistema desde sus celulares o sus tabletas. 
 
 ### 2.5 Design and Implementation Constraints  
-El sisitema se usará sobre todo al inicio del semestre, por lo que, es necesario considerar la cantidad de personas que van a estar usandolo al mismo tiempo. Los usarios tienen un límite de tiempo en el que pueden entrar al sistema y dar de alta su materia ciertos días en el semestre. Esto hace necesario una validación para verificar que el usuario si pude hacer la modificaciones que quiere. Asimismo, las bajas de materia solo se puden hacer dentro de un periodo del semestre. 
+El sistema se usará sobre todo al inicio del semestre, por lo que, es necesario considerar la cantidad de personas que van a estar usándolo al mismo tiempo. Los usarios tienen un límite de tiempo en el que pueden entrar al sistema y dar de alta su materia ciertos días en el semestre. Esto hace necesario una validación para verificar que el usuario si pude hacer la modificaciones que quiere. Asimismo, las bajas de materia solo se puden hacer dentro de un periodo del semestre. 
 
 ### 2.6 User Documentation  
 
@@ -73,4 +73,18 @@ El botón de "Ingresar" realiza las siguientes validaciones:
 ### 3.3 Software Interfaces
 
 ### 3.4 Communication Interfaces
+
+## 5. Other Nonfunctional Requirements
+
+### 5.1 Performance Requirements
+Es necesario considerar que el sistema debe soportar ser utilizado por muchos alumnos al mismo tiempo. Desde el inicio de sesión hasta la alta y baja de materias, el sistema debe aguantar una carga de por lo menos 500 alumnos. Considerando que cada alumno busca 8 e inscribe o da de baja 6 materias en promedio durante su sesión, se requiere que la base de datos pueda soportar aproximadamente 5000 lecturas y 3500 modificaciones por hora. Además, los tiempos de respuesta para las solicitudes de lectura no deben de rebasar 0.1 segundos, y las demás solicitudes deben completarse por debajo del segundo.
+
+
+### 5.2 Safety Requirements
+
+### 5.3 Security Requirements
+
+### 5.4 Software Quality Attributes
+
+### 5.5 Business Rules
 
