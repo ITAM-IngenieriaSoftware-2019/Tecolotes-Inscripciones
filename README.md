@@ -76,10 +76,14 @@ El botón de "Registrar" realiza las siguientes validaciones:
 .Si al momento de 
 
 ### 3.2 Hardware Interfaces
+El sistema funciona con una computadora o dispositivo móvil, con cualquier sistema operativo, ya sea Windows, MacOS, Linux, Android o iOS y en cualquier navegador: Internet Explorer, Safari, Google Chrome,etc.
+Es necesario tener acceso a internet para poder utilizar la plataforma.
 
 ### 3.3 Software Interfaces
 
 ### 3.4 Communication Interfaces
+El sistema requiere una conexión con la base de datos del ITAM, obtiene sus claves únicas y sus NIPS para el login, obtiene los historiales académicos de cada alumno, así como promedio y prerrequisitos de sus materias, obtiene todas las materias que se impartirán y los grupos que estarán disponibles con sus respectivos horarios y días de impartición.
+El sistema conecta con el servidor del ITAM par asignar y rechazar las materias por orden y en tiempo real, de esa manera identifica cuáles grupos están disponibles y cuáles no.
 
 ## 4. System Features
 
@@ -91,7 +95,6 @@ El botón de "Registrar" realiza las siguientes validaciones:
 
 ### 5.1 Performance Requirements
 Es necesario considerar que el sistema debe soportar ser utilizado por muchos alumnos al mismo tiempo. Desde el inicio de sesión hasta la alta y baja de materias, el sistema debe aguantar una carga de por lo menos 500 alumnos. Considerando que cada alumno busca 8 e inscribe o da de baja 6 materias en promedio durante su sesión, se requiere que la base de datos pueda soportar aproximadamente 5000 lecturas y 3500 modificaciones por hora. Además, los tiempos de respuesta para las solicitudes de lectura no deben de rebasar 0.1 segundos, y las demás solicitudes deben completarse por debajo del segundo.
-
 
 ### 5.2 Safety Requirements
 Al inicio del semestre, en caso de ocurrir una falla generalizada a cierto porcentaje de los usuarios, es necesario desactivar el sistema y recorrer los horarios de entrada al sistema de los alumnos hasta que la falla quede corregida para evitar que alumnos pierdan grupos o materias debido a que éstos se llenen con alumnos de horarios posteriores.
