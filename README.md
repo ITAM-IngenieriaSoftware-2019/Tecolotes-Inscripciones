@@ -32,5 +32,16 @@ Las princiapales funciones que el sistema de inscripciones tiene que realizar es
 - Dar de baja: el alumno podrá dar de baja uno o más de sus materias inscritas.. 
 
 
-### 2.3 User cases and characteristic 
+### 2.3 User cases and characteristics
+
+
+### 2.4 Operating Environment 
+El sistema tiene que poder operar en los diferentes navegadores de forma correcta. Además, debe se debe poner ajustarse a las diferentes pantallas, ya que los usuarios pueden usar el sistema desde sus celulares o sus tabletas. 
+
+### 2.5 Design and Implementation Constraints  
+El sisitema se usará sobre todo al inicio del semestre, por lo que, es necesario considerar la cantidad de personas que van a estar usandolo al mismo tiempo. Los usarios tienen un límite de tiempo en el que pueden entrar al sistema y dar de alta su materia ciertos días en el semestre. Esto hace necesario una validación para verificar que el usuario si pude hacer la modificaciones que quiere. Asimismo, las bajas de materia solo se puden hacer dentro de un periodo del semestre. 
+
+### 2.6 User Documentation  
+
+### 2.7 Assumptions and Dependencies  
 
