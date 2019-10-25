@@ -69,10 +69,14 @@ El botón de "Ingresar" realiza las siguientes validaciones:
 .Si los campos están incompletos, arroja un mensaje indicando que los campos deben ser llenados.
 
 ### 3.2 Hardware Interfaces
+El sistema funciona con una computadora o dispositivo móvil, con cualquier sistema operativo, ya sea Windows, MacOS, Linux, Android o iOS y en cualquier navegador: Internet Explorer, Safari, Google Chrome,etc.
+Es necesario tener acceso a internet para poder utilizar la plataforma.
 
 ### 3.3 Software Interfaces
 
 ### 3.4 Communication Interfaces
+El sistema requiere una conexión con la base de datos del ITAM, obtiene sus claves únicas y sus NIPS para el login, obtiene los historiales académicos de cada alumno, así como promedio y prerrequisitos de sus materias, obtiene todas las materias que se impartirán y los grupos que estarán disponibles con sus respectivos horarios y días de impartición.
+El sistema conecta con el servidor del ITAM par asignar y rechazar las materias por orden y en tiempo real, de esa manera identifica cuáles grupos están disponibles y cuáles no.
 
 ## 5. Other Nonfunctional Requirements
 
@@ -81,23 +85,10 @@ Es necesario considerar que el sistema debe soportar ser utilizado por muchos al
 
 
 ### 5.2 Safety Requirements
-Al inicio del semestre, en caso de ocurrir una falla generalizada a cierto porcentaje de los usuarios, es necesario desactivar el sistema y recorrer los horarios de entrada al sistema de los alumnos hasta que la falla quede corregida para evitar que alumnos pierdan grupos o materias debido a que éstos se llenen con alumnos de horarios posteriores.
-En caso de daños a la base de datos, es necesario llevar un registro de las transacciones llevadas a cabo por los alumnos así como tener un método de recuperación que permita restablecer una versión anterior de la base y que aplique las transacciones del registro.
 
 ### 5.3 Security Requirements
-Es necesario contar con un método de encripicón para mantener seguras las contraseñas de los usuarios al momento de que inicien sesión en el sistema. Asimismo, la recuperación de contraseña debe asociarse al correo escolar del usuario y también contar con métodos de encripción. Por último, se debe establecer un período de inactividad de 5 minutos tras el cual la sesión del usuario debe expirar y debe ser sacado del sistema de forma automática.
 
 ### 5.4 Software Quality Attributes
-- **Portabilidad**. El sistema debe de funcionar en los navegadores más comunes:
-	- Google Chrome
-	- Safari
-	- Microsoft Edge
-	- Internet Explorer
-	- Mozilla Firefox
-- **Confiabilidad**. El sistema debe realizar las transacciones correctamente y tener la disponibilidad requerida para asegurar una confiabilidad del 98% en cada sesión.
-- **Mantenibilidad**.
-- **Facilidad de testeo**.
-- **Reusabilidad**.
 
 ### 5.5 Business Rules
-El sistema puede ser ingresado por los alumnos del ITAM en todo momento. Sin embargo, las funciones de alta y baja de materias solamente están disponibles en fechas y horarios asignados por el instituto. Fuera de este tiempo, los alumnos solamente pueden ingresar al sistema para ver su información.
+
