@@ -95,8 +95,11 @@ Es necesario contar con un método de encripicón para mantener seguras las cont
 	- Internet Explorer
 	- Mozilla Firefox
 - **Confiabilidad**. El sistema debe realizar las transacciones correctamente y tener la disponibilidad requerida para asegurar una confiabilidad del 98% en cada sesión.
+
 -**Mantenibilidad**.
+
 -**Facilidad de testeo**.
+
 -**Reusabilidad**.
 
 ### 5.5 Business Rules
