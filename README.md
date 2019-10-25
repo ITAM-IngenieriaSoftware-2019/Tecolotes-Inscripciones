@@ -81,3 +81,36 @@ El botón de "Registrar" realiza las siguientes validaciones:
 
 ### 3.4 Communication Interfaces
 
+## 4. System Features
+
+### 4.1 [Entrada al sistema con credenciales de usuario](https://github.com/ITAM-IngenieriaSoftware-2019/Tecolotes-Inscripciones/issues/1)
+### 4.2 [Inscribir materia](https://github.com/ITAM-IngenieriaSoftware-2019/Tecolotes-Inscripciones/issues/2)
+### 4.3 [Dar de baja materia](https://github.com/ITAM-IngenieriaSoftware-2019/Tecolotes-Inscripciones/issues/3)
+
+## 5. Other Nonfunctional Requirements
+
+### 5.1 Performance Requirements
+Es necesario considerar que el sistema debe soportar ser utilizado por muchos alumnos al mismo tiempo. Desde el inicio de sesión hasta la alta y baja de materias, el sistema debe aguantar una carga de por lo menos 500 alumnos. Considerando que cada alumno busca 8 e inscribe o da de baja 6 materias en promedio durante su sesión, se requiere que la base de datos pueda soportar aproximadamente 5000 lecturas y 3500 modificaciones por hora. Además, los tiempos de respuesta para las solicitudes de lectura no deben de rebasar 0.1 segundos, y las demás solicitudes deben completarse por debajo del segundo.
+
+
+### 5.2 Safety Requirements
+Al inicio del semestre, en caso de ocurrir una falla generalizada a cierto porcentaje de los usuarios, es necesario desactivar el sistema y recorrer los horarios de entrada al sistema de los alumnos hasta que la falla quede corregida para evitar que alumnos pierdan grupos o materias debido a que éstos se llenen con alumnos de horarios posteriores.
+En caso de daños a la base de datos, es necesario llevar un registro de las transacciones llevadas a cabo por los alumnos así como tener un método de recuperación que permita restablecer una versión anterior de la base y que aplique las transacciones del registro.
+
+### 5.3 Security Requirements
+Es necesario contar con un método de encripicón para mantener seguras las contraseñas de los usuarios al momento de que inicien sesión en el sistema. Asimismo, la recuperación de contraseña debe asociarse al correo escolar del usuario y también contar con métodos de encripción. Por último, se debe establecer un período de inactividad de 5 minutos tras el cual la sesión del usuario debe expirar y debe ser sacado del sistema de forma automática.
+
+### 5.4 Software Quality Attributes
+- **Portabilidad**. El sistema debe de funcionar en los navegadores más comunes:
+	- Google Chrome
+	- Safari
+	- Microsoft Edge
+	- Internet Explorer
+	- Mozilla Firefox
+- **Confiabilidad**. El sistema debe realizar las transacciones correctamente y tener la disponibilidad requerida para asegurar una confiabilidad del 98% en cada sesión.
+- **Mantenibilidad**.
+- **Facilidad de testeo**.
+- **Reusabilidad**.
+
+### 5.5 Business Rules
+El sistema puede ser ingresado por los alumnos del ITAM en todo momento. Sin embargo, las funciones de alta y baja de materias solamente están disponibles en fechas y horarios asignados por el instituto. Fuera de este tiempo, los alumnos solamente pueden ingresar al sistema para ver su información.
