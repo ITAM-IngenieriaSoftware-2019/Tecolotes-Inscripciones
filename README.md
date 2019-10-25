@@ -88,8 +88,16 @@ En caso de daños a la base de datos, es necesario llevar un registro de las tra
 Es necesario contar con un método de encripicón para mantener seguras las contraseñas de los usuarios al momento de que inicien sesión en el sistema. Asimismo, la recuperación de contraseña debe asociarse al correo escolar del usuario y también contar con métodos de encripción. Por último, se debe establecer un período de inactividad de 5 minutos tras el cual la sesión del usuario debe expirar y debe ser sacado del sistema de forma automática.
 
 ### 5.4 Software Quality Attributes
-
+- **Portabilidad**. El sistema debe de funcionar en los navegadores más comunes:
+	- Google Chrome
+	- Safari
+	- Microsoft Edge
+	- Internet Explorer
+	- Mozilla Firefox
+- **Confiabilidad**. El sistema debe realizar las transacciones correctamente y tener la disponibilidad requerida para asegurar una confiabilidad del 98% en cada sesión.
+-**Mantenibilidad**.
+-**Facilidad de testeo**.
+-**Reusabilidad**.
 
 ### 5.5 Business Rules
-
-
+El sistema puede ser ingresado por los alumnos del ITAM en todo momento. Sin embargo, las funciones de alta y baja de materias solamente están disponibles en fechas y horarios asignados por el instituto. Fuera de este tiempo, los alumnos solamente pueden ingresar al sistema para ver su información.
