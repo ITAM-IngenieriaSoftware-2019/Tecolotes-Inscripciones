@@ -81,10 +81,15 @@ Es necesario considerar que el sistema debe soportar ser utilizado por muchos al
 
 
 ### 5.2 Safety Requirements
+Al inicio del semestre, en caso de ocurrir una falla generalizada a cierto porcentaje de los usuarios, es necesario desactivar el sistema y recorrer los horarios de entrada al sistema de los alumnos hasta que la falla quede corregida para evitar que alumnos pierdan grupos o materias debido a que éstos se llenen con alumnos de horarios posteriores.
+En caso de daños a la base de datos, es necesario llevar un registro de las transacciones llevadas a cabo por los alumnos así como tener un método de recuperación que permita restablecer una versión anterior de la base y que aplique las transacciones del registro.
 
 ### 5.3 Security Requirements
+Es necesario contar con un método de encripicón para mantener seguras las contraseñas de los usuarios al momento de que inicien sesión en el sistema. Asimismo, la recuperación de contraseña debe asociarse al correo escolar del usuario y también contar con métodos de encripción. Por último, se debe establecer un período de inactividad de 5 minutos tras el cual la sesión del usuario debe expirar y debe ser sacado del sistema de forma automática.
 
 ### 5.4 Software Quality Attributes
 
+
 ### 5.5 Business Rules
+
 
