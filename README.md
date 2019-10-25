@@ -74,6 +74,12 @@ El botón de "Ingresar" realiza las siguientes validaciones:
 
 ### 3.4 Communication Interfaces
 
+## 4. System Features
+
+### 4.1 [Entrada al sistema con credenciales de usuario](https://github.com/ITAM-IngenieriaSoftware-2019/Tecolotes-Inscripciones/issues/1)
+### 4.2 [Inscribir materia](https://github.com/ITAM-IngenieriaSoftware-2019/Tecolotes-Inscripciones/issues/2)
+### 4.3 [Dar de baja materia](https://github.com/ITAM-IngenieriaSoftware-2019/Tecolotes-Inscripciones/issues/3)
+
 ## 5. Other Nonfunctional Requirements
 
 ### 5.1 Performance Requirements
