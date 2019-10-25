@@ -4,7 +4,7 @@ Tarea 3
 ## 1. Introducción
 ### 1.1 Purpose
 
-Sistema de Inscripciones para los alumnos del ITAM que permita agilizar y simplificar el proceso.
+Sistema de Inscripciones para los alumnos del ITAM que permita agilizar y simplificar el proceso. El sistema esta pensado como un subsistema de los servicios en linea de la universidad y se ayudara de estos para su funcionamiento. 
 
 
 ### 1.2 Document conventions 
