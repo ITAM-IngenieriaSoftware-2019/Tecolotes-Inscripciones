@@ -9,14 +9,26 @@ Sistema de Inscripciones para los alumnos del ITAM que permita agilizar y simpli
 
 ### 1.2 Document conventions 
 
+El documento se basa en la jerarquia especificada por la IEEE. Par la estimacion de la complejidad de los diferentes componentes utilizamos una escla de elote, donde de menor a mayor tenemos:
+
+    1. Esquite
+    2. Elote asado
+    3. Elote con mayonesa, queso y chile del que no pica
+    4. Elote con mayonesa, queso y chile del que pica
+
 
 ### 1.3 Intended Audience and Reading Suggestions
+
+El documento está planeado para ser leído por desarrolladores, por lo que el resto del documento contendrá los detalles técnicos necesarios para el desarrollo del proyecto. Recomendamos que se siga el orden lógico dado para su lectura. 
 
 
 ### 1.4 Product Scope 
 
+El objetivo de este proyecto es proveer un sistema de inscripciones para los alumnos del ITAM que permita agilizar y facilitar el proceso de inscripciones al inicio de cada semestre, comsiderando alta de materias, baja de materias, prerrequisitos, carga académica, listas de espera, entre otras cosas.
 
 ### 1.5 References
+
+Por el momento no se cuenta con ninguna referencia externa
 
 
 ## 2. Overall Description
