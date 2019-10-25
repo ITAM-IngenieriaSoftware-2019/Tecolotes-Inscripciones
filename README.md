@@ -95,9 +95,9 @@ Es necesario contar con un método de encripicón para mantener seguras las cont
 	- Internet Explorer
 	- Mozilla Firefox
 - **Confiabilidad**. El sistema debe realizar las transacciones correctamente y tener la disponibilidad requerida para asegurar una confiabilidad del 98% en cada sesión.
--**Mantenibilidad**.
--**Facilidad de testeo**.
--**Reusabilidad**.
+- **Mantenibilidad**.
+- **Facilidad de testeo**.
+- **Reusabilidad**.
 
 ### 5.5 Business Rules
 El sistema puede ser ingresado por los alumnos del ITAM en todo momento. Sin embargo, las funciones de alta y baja de materias solamente están disponibles en fechas y horarios asignados por el instituto. Fuera de este tiempo, los alumnos solamente pueden ingresar al sistema para ver su información.
